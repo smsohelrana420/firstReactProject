@@ -1,8 +1,11 @@
 import React from 'react'
+import Root from './components/Root'
 
 const App = () => {
   return (
-    <div className='bg-red-500 text-center text-white font-bold text-5xl p-4'>App</div>
+    <div>
+      <Root/>
+    </div>
   )
 }
 
